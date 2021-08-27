@@ -1,0 +1,53 @@
+
+var answerTrue = document.querySelector("#true").addEventListener("click", trueButton, increaseScore);
+var answerFalse = document.querySelector("#false").addEventListener("click", trueButton, increaseScore);
+
+var answerTrue = document.querySelector("#true").addEventListener("click", trueButton, decreaseTime);
+var answerFalse = document.querySelector("#false").addEventListener("click", trueButton, decreaseTime);
+
+//  question is answered true and is correct, increase score - increment score decrement time
+increaseScore.addEventListener("click", function() {
+   if (answerTrue === true) {
+	count++;
+        counter.textContent = count;
+        localStorage.setItem("count", count);
+   } else (answerTrue === false) {
+	timer--;
+        counter.textContent = count;
+        localStorage.setItem("count", count);
+   }
+});
+
+//  question is answered false and is correct, increase score - increment score decrement time
+decreaseTime.addEventListener("click", function() {
+   if (answerFalse === true) {
+	count++;
+        counter.textContent = count;
+        localStorage.setItem("count", count);
+   } else (answerFalse === false) {
+	timer--;
+        counter.textContent = count;
+        localStorage.setItem("count", count);
+   }
+});
+
+document.getElementById("score").innerHTML
+
+id="score"
+id="timer"
+
+function increaseScore
+function decreaseTime
+
+
+
+var answer = 
+var points = number
+if answer = true; 
+var score = function(answer, points)  {
+  for(var i = 0, i < (number), i++);
+} else {
+    answer = false;
+    return(subtract time)
+}
+ 
