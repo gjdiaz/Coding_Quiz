@@ -1,0 +1,20 @@
+body  {
+    background-color: rgb(72, 72, 102); 
+}
+#main  {
+    margin-top: 100px;
+    padding: 20px 40px;
+    background-color: rgb(72, 72, 102);
+    color: cornsilk;
+    text-align: center;
+}
+
+.container  {
+    margin-top: 100px;
+    padding: 20px 40px;
+    background-color: rgb(72, 72, 102);
+    color: cornsilk;
+    text-align: center;
+}
+
+

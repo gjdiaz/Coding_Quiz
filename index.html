@@ -4,22 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css" />
     <title>Code Quiz</title>
 </head>
 <body>     
     <div id="main">
-        <h6>Instructions here</h6>
+        <div>This is a quiz designed to test your knowledge of JavaScript</div>
+        <div>You will be given 60 seconds to answer true/false questions</div>
+        <div>If you answer correctly your score will increase!</div>
+        <div>If you answer incorrectly five seconds will be taken off the timer.</div><br>
         <button id="start" onclick="startQuiz()">Start</button>
     </div>
     <div class="container" id="start-quiz">
         <h1 class="time" style="text-align:center;"></h1>
-        <div class="questions" id="display-question"></div>
-            <form name="current-question">
+        <div class="questions"></div>
+            <p id="current-question">
            
-            </form>
+            </p>
                 <button id="true">True</button>
                 <button id="false">False</button>
-                <button id="submit">Submit</button>
                 <h3>High Score</h3>
                 <h5 id="score"></h5>
         </div>
